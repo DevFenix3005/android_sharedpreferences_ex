@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Informacion Personal">
+        <EditTextPreference
+            android:defaultValue="[Agrega tu Nombre aqui]"
+            android:key="firstname"
+            android:summary="Nombre del usuario"
+            android:title="Nombre" />
+
+        <EditTextPreference
+            android:defaultValue="[Agrega tu Apellido aqui]"
+            android:key="lastname"
+            android:summary="Apelldio del usuario"
+            android:title="Apellido" />
+
+        <EditTextPreference
+            android:defaultValue="[Agrega tu sobrenombre aqui]"
+            android:key="nickname"
+            android:summary="Sobrenombre del usuario"
+            android:title="Nickname" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="active"
+            android:summary="Cuenta activa"
+            android:title="Activo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="StarCraft II">
+        <PreferenceScreen
+            android:key="starcraft2_section"
+            android:summary="Seccion para personalizacion de starcraft 2"
+            android:title="StarCraft II">
+            <EditTextPreference
+                android:defaultValue="[Nombre de tu Avatar]"
+                android:key="starcraft_avatarname"
+                android:summary="Nombre de tu avatar"
+                android:title="Avatar" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="active_starcraft"
+                android:summary="Cuenta activa"
+                android:title="Activo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Diablo III">
+        <PreferenceScreen
+            android:key="diablo3_section"
+            android:summary="Seccion para personalizacion de Diablo 3"
+            android:title="Diablo 3">
+            <EditTextPreference
+                android:defaultValue="[Nombre de tu Avatar]"
+                android:key="diablo_avatarname"
+                android:summary="Nombre de tu avatar"
+                android:title="Avatar" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="active_diablo"
+                android:summary="Cuenta activa"
+                android:title="Activo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="World of Warcraft">
+        <PreferenceScreen
+            android:key="wow_section"
+            android:summary="Seccion para personalizacion de World of warcraft"
+            android:title="World of Warcraft">
+            <EditTextPreference
+                android:defaultValue="[Nombre de tu Avatar]"
+                android:key="wow_avatarname"
+                android:summary="Nombre de tu avatar"
+                android:title="Avatar" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="active_wow"
+                android:summary="Cuenta activa"
+                android:title="Activo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

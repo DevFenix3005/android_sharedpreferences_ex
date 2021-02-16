@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_settings"
+        android:contentDescription="Configuraciones de la aplicacion"
+        android:icon="@mipmap/ic_settings"
+        android:title="Opciones"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menu_show"
+        android:contentDescription="Mostrar la informacion del sharedPreferend"
+        android:icon="@mipmap/ic_eye"
+        android:title="Mostrar"
+        app:showAsAction="ifRoom|withText" />
+</menu>
